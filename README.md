@@ -54,7 +54,8 @@ Whether you're contemplating a home purchase, investment decisions, or consideri
 ### Use Case
 
 
-![img_2.png](img_2.png)
+![img.png](img.png)
+
 - UC-1 [User Registration)]: User provides name, email, and password and system stores user information in the User database
 - UC-2 [Calculator Usage]: User selects a specific calculator (mortgage, loan, pension etc.), and inputs parameters for the calculation 
 - UC-3 [User Authentication]: User provides email and password, system verifies the credentials against the User database.
@@ -102,7 +103,7 @@ Our domain model is depicted using UML class diagrams, created in Visual Paradig
 
 - The `FTbackend.finance.data.domain` package contains the following domain objects / entities including getters and setters:
 
-![img_4.png](img_4.png)
+![img_1.png](img_1.png)
 
 ### Business Logic
 
