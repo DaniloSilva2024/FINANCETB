@@ -18,8 +18,10 @@ const SignupPage = () => {
     useEffect(() => {
         const fetchBackgroundImage = async () => {
             try {
-                const response = await axios.get('https://source.unsplash.com/random');
-                setBackgroundImage(response.config.url);
+                // Using a different image URL or commenting out Unsplash for now
+                // const response = await axios.get('https://source.unsplash.com/random');
+                // setBackgroundImage(response.config.url);
+                setBackgroundImage('/fallback-background-image.jpg'); // Set a fallback image directly
             } catch (error) {
                 console.error('Error fetching background image:', error);
                 setBackgroundImage('/fallback-background-image.jpg'); // Set a fallback image
@@ -110,3 +112,4 @@ const SignupPage = () => {
 };
 
 export default SignupPage;
+
